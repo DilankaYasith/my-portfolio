@@ -1,0 +1,64 @@
+/* navbar.css */
+
+/* Base styles */
+nav {
+    background-color: #2afa92;
+    height: 8rem;
+  }
+
+  nav span {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+  }
+
+  nav .logo {
+    font-size: 10px;
+    font-weight: 700;
+    color: #050e44;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+}
+  
+  nav .max-w-7xl {
+    margin: 0 auto;
+    padding: 0 0rem;
+  }
+  
+  nav .flex {
+    justify-content: space-between;
+    align-items: center;
+    height: 1rem;
+  }
+
+  nav .linksContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  
+  /* Link styles */
+  nav a {
+    color: #010a0a;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  
